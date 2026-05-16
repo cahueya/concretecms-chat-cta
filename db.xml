@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="ChatCtaSettings">
+        <field name="settingKey" type="C" size="128">
+            <key />
+        </field>
+        <field name="settingValue" type="X2" />
+    </table>
+
+    <table name="ChatCtaNumbers">
+        <field name="id" type="I">
+            <key />
+            <autoincrement />
+        </field>
+        <field name="label" type="C" size="255"><default value="" /></field>
+        <field name="phone" type="C" size="64"><notnull /></field>
+        <field name="weight" type="I"><default value="1" /></field>
+        <field name="isActive" type="I1"><default value="1" /></field>
+        <field name="sortOrder" type="I"><default value="0" /></field>
+        <field name="clicks" type="I"><default value="0" /></field>
+        <field name="lastClicked" type="T" />
+        <field name="createdAt" type="T" />
+        <field name="updatedAt" type="T" />
+    </table>
+</schema>
