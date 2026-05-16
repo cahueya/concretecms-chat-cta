@@ -32,7 +32,7 @@ Chat CTA is a lightweight ConcreteCMS package that adds a floating chat/contact 
 2. Move the package into:
    /packages
 
-3. Rename the folder to /chat_cta
+3. Rename the package folder to **chat_cta**
    
 4. Install the package from:
 
@@ -48,6 +48,8 @@ Dashboard → System & Settings → Chat CTA
 
 WhatsApp is a trademark of Meta Platforms, Inc.
 This package is not affiliated with or endorsed by WhatsApp or Meta.
+
+This package is tested with concreteCMS Version 9.4.8, other versions of v.9 might work, I would not expect it to work on older than v.9.
 
 ## License
 
