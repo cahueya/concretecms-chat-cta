@@ -27,12 +27,14 @@ Chat CTA is a lightweight ConcreteCMS package that adds a floating chat/contact 
 - Custom URL
 
 ## Installation
+1. Download & unpack the ZIP File
 
-1. Copy the package into:
+2. Move the package into:
+   /packages
 
-   packages/chat_cta/
-
-2. Install the package from:
+3. Rename the folder to /chat_cta
+   
+4. Install the package from:
 
    Dashboard → Extend ConcreteCMS
 
